@@ -1,0 +1,19 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  }
+}
