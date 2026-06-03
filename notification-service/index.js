@@ -29,7 +29,9 @@ async function consumeRabbitMQWithRetry(retries = 5, delay = 3000){
      }
 }
 
-
+app.get("/", async(req,res)=>{
+    res.send("Notification service is running")
+})
 
 
 const port = 3003
